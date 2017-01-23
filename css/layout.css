@@ -26,11 +26,14 @@
 
 .col-1{
   float:left;
-  width: 31%;
+  width: 32%;
 }
 .col-2{
   float: left;
   width: 66%;
+}
+[class*="col-"]{
+  margin-left: 2%;
 }
 
 .clearfix :after{
@@ -41,7 +44,10 @@
   height: 0;
   line-height: 0;
 }
-
+section{
+  margin-bottom: 20px;
+  padding: 20px;
+}
 
 .first{
   margin-left: 0%;
